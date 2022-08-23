@@ -1,0 +1,62 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container{
+    display: flex;
+    animation: color 5s linear infinite;
+}
+@keyframes color {
+    0%{
+        filter: hue-rotate(0deg);
+    }
+    100%{
+        filter: hue-rotate(360deg);
+    }
+}
+.mainDiv{
+    display: flex;
+    align-items: center;
+}
+.mainDiv{
+    display: flex;
+    width: 386px;
+    text-transform: uppercase;
+    justify-content: space-between;
+}
+.p2{
+    color: burlywood;
+}
+.delete{
+    width: 82px;
+    height: 30px;
+    border: none;
+    background-color: #127e90;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5%;
+}
+.delete:hover{
+    background-color: #1f5962;
+}
+input{
+    width: 300px;
+    height: 40px;
+    background-color: slategray;
+    border: none;
+    font-size: 20px;
+    color: white;
+}
+input:focus{
+    outline: none;
+}
+.childDiv{
+    display: flex;
+    align-items: center;
+}
