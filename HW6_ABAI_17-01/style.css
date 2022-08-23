@@ -19,12 +19,11 @@ body{
         filter: hue-rotate(360deg);
     }
 }
+
 .mainDiv{
+    order: 2;
     display: flex;
     align-items: center;
-}
-.mainDiv{
-    display: flex;
     width: 386px;
     text-transform: uppercase;
     justify-content: space-between;
@@ -59,4 +58,7 @@ input:focus{
 .childDiv{
     display: flex;
     align-items: center;
+}
+.childDiv p {
+    order: 2;
 }

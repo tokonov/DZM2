@@ -36,7 +36,7 @@ button.onclick = () =>{
 
     const p2 = document.createElement('p')
     p2.setAttribute('class' , ' p2')
-    p2.innerText = ',hello'
+    p2.innerText = 'hello, '
 
     const deleteButton = document.createElement('button')
     deleteButton.innerText = 'delete'
@@ -47,7 +47,7 @@ button.onclick = () =>{
     p.innerText = input.value
 
     div.append(childDiv,deleteButton)
-    childDiv.append(p,p2)
+    childDiv.append(p2,p)
     document.body.append(div)
     deleteButton.onclick =  () =>{
         div.remove()
